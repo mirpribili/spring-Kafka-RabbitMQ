@@ -1,4 +1,4 @@
-package org.example;
+package org.example.springboot;
 
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
