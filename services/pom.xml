@@ -15,5 +15,11 @@
         <module>department-service</module>
     </modules>
 
+    <properties>
+        <org.projectlombok.version>1.18.20</org.projectlombok.version>
+        <!-- spring boot versions -->
+        <spring.boot.version>3.0.0</spring.boot.version>
+    </properties>
+
 
 </project>
