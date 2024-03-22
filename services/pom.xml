@@ -12,6 +12,7 @@
 
     <modules>
         <module>user_management</module>
+        <module>department-service</module>
     </modules>
 
 
