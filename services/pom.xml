@@ -13,6 +13,7 @@
     <modules>
         <module>user_management</module>
         <module>department-service</module>
+        <module>employee-service</module>
     </modules>
 
     <properties>
