@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @OpenAPIDefinition(
-		// http://localhost:8080/swagger-ui/index.html#/user-controller/getUserById
+		// http://localhost:8081/swagger-ui/index.html#/user-controller/getUserById
 		info = @Info(
 				title = "Spring Boot REST API Documentation",
 				description = "Spring Boot REST API Documentation",
