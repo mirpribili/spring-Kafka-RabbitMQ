@@ -10,6 +10,22 @@
 - RestTemplate,
 - WebClient,
 - Spring Cloud OpenFeign
+#### step by step
+- RestTemplate (old way)
+- dev steps:
+- - add dpartmentCode field in Employee JPA Entity
+- - create DepartmentDto class
+- - configure RestTemplate as Spring Bean
+- - Inject and use RestTemplate to make REST API call in EmployeeServiceImpl class
+- WebClient steps
+- - add spring WebFlux dependency
+- - configure WebClient as bean
+- - inject and use to call the REST API
+- spring cloud OpenFeign steps
+- - add spring cloud open feign Maven dependency
+- - enable feign Client using @EnableFeignClients
+- - Create Feign API Client
+- - Change the getEmployeeById method to use APIClient
 
 ### Service Registry and Discovery:
 - Spring Cloud Netflix Eureka
