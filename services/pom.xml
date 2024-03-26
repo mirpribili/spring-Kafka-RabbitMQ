@@ -15,6 +15,7 @@
         <module>department-service</module>
         <module>employee-service</module>
         <module>service-registry</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>
