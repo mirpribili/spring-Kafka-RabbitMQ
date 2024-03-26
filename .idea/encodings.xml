@@ -5,11 +5,15 @@
     <file url="file://$PROJECT_DIR$/services/department-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/employee-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/employee-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/service-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/service-registry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/user_management/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/user_management/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
   </component>
 </project>
