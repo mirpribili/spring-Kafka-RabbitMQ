@@ -21,6 +21,7 @@
     <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
     <!-- spring boot versions -->
     <spring.boot.version>3.0.0</spring.boot.version>
+    <revision>0.0.1-SNAPSHOT</revision>
   </properties>
 
   <dependencies>
