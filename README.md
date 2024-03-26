@@ -29,6 +29,8 @@
 
 ### Service Registry and Discovery:
 - Spring Cloud Netflix Eureka
+- - Update on Using Spring Boot 3 Version
+- - - Don’t annotate an entry-point DepartmentServiceApplication class with @EnableEurekaClient - This annotation was removed in spring cloud 2022.0.0 and provided auto-configuration.
 
 ### Load balancing:
 - Eureka server,
