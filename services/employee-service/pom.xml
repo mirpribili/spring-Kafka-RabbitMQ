@@ -94,6 +94,43 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
+
+
+        <!--
+        distributed tracing with Micrometer (alternative to Sleuth) and Zipkin
+        -->
+        <!--
+        micrometer-observation dependency will allow us to collect and report
+        metrics from our application to Zipkin.
+        -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-observation</artifactId>
+        </dependency>
+        <!--
+        micrometer-tracing-bridge-brave dependency will allow us to trace our spring boot application.
+        -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-tracing-bridge-brave</artifactId>
+        </dependency>
+        <!--
+        zipkin-reporter-brave dependency allows us to send traces that we collect to Zipkin.
+        -->
+        <dependency>
+            <groupId>io.zipkin.reporter2</groupId>
+            <artifactId>zipkin-reporter-brave</artifactId>
+        </dependency>
+        <!--
+        feign-micrometer dependency was added because I am using feign in my microservices to call other APIs.
+        This dependency will configure the micrometer to work with feign.
+        -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-micrometer</artifactId>
+        </dependency>
+        <!-- distributed tracing with Micrometer (alternative to Sleuth) and Zipkin -->
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
