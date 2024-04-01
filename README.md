@@ -48,6 +48,12 @@
 ### Distributed Tracing:
 - Spring Cloud Sleuth and Zipkin
 
+- `docker pull openzipkin/zipkin`
+- - `docker run --rm -it --name zipkin -p 9411:9411 openzipkin/zipkin`
+- `docker pull rabbitmq:3.11.0`
+- - `docker image ls`
+- - `docker run --rm -it -p 5672:5672 rabbitmq:3.11.0`
+
 ### Resilience4J:
 - Circuit Breaker, 
 - Retry,
