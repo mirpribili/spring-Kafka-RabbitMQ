@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/services/department-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/employee-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/employee-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/organization-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/organization-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/service-registry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/service-registry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/src/main/java" charset="UTF-8" />

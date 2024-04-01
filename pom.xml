@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>services</module>
+      <module>services/organization-service</module>
   </modules>
 
   <properties>
