@@ -12,6 +12,7 @@
   <modules>
     <module>services</module>
       <module>services/organization-service</module>
+      <module>docker</module>
   </modules>
 
   <properties>
