@@ -13,7 +13,11 @@
     <module>services</module>
       <module>services/organization-service</module>
       <module>docker</module>
+      <module>kafka</module>
       <module>kafka/demo</module>
+    <module>kafka/stream-wiki-kafka</module>
+    <module>kafka/stream-wiki-kafka/kafka-consumer-database</module>
+    <module>kafka/stream-wiki-kafka/kafka-producer-wikimedia</module>
   </modules>
 
   <properties>
