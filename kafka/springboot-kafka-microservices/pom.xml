@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>kafka</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>springboot-kafka-microservices</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>base-domains</module>
+        <module>email-service</module>
+        <module>order-service</module>
+        <module>stock-service</module>
+    </modules>
+
+    <properties>
+        <org.projectlombok.version>1.18.20</org.projectlombok.version>
+        <!-- spring boot versions -->
+        <spring.boot.version>3.0.0</spring.boot.version>
+    </properties>
+
+
+</project>
