@@ -16,6 +16,8 @@
       <module>kafka</module>
       <module>kafka/demo</module>
     <module>kafka/stream-wiki-kafka</module>
+      <module>rabbitmq</module>
+    <module>rabbitmq/springboot-rabbitmq-tutorial</module>
   </modules>
 
   <properties>
