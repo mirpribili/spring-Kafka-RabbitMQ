@@ -5,17 +5,14 @@
         <groupId>org.example</groupId>
         <artifactId>kafka-rabbit</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>rabbitmq</artifactId>
+    <artifactId>springboot-rabbitmq-microservices</artifactId>
     <packaging>pom</packaging>
 
-    <name>rabbitmq</name>
+    <name>springboot-rabbitmq-microservices</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>springboot-rabbitmq-tutorial</module>
-        <module>springboot-rabbitmq-microservices</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,4 +20,9 @@
 
     <dependencies>
     </dependencies>
+    <modules>
+        <module>rabbit-email-service</module>
+        <module>rabbit-order-service</module>
+        <module>rabbit-stock-service</module>
+    </modules>
 </project>
