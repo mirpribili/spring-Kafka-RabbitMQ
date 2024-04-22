@@ -7,19 +7,22 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>rabbitmq</artifactId>
+    <artifactId>messaging-modules</artifactId>
     <packaging>pom</packaging>
 
-    <name>rabbitmq</name>
+    <name>messaging-modules</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>springboot-rabbitmq-tutorial</module>
-        <module>springboot-rabbitmq-microservices</module>
-    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <modules>
+        <module>kafka</module>
+        <module>kafka/demo</module>
+        <module>kafka/stream-wiki-kafka</module>
+        <module>rabbitmq</module>
+        <module>rabbitmq/springboot-rabbitmq-tutorial</module>
+    </modules>
 
     <dependencies>
     </dependencies>

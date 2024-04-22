@@ -13,11 +13,7 @@
     <module>services</module>
       <module>services/organization-service</module>
       <module>docker</module>
-      <module>kafka</module>
-      <module>kafka/demo</module>
-    <module>kafka/stream-wiki-kafka</module>
-      <module>rabbitmq</module>
-    <module>rabbitmq/springboot-rabbitmq-tutorial</module>
+      <module>messaging-modules</module>
   </modules>
 
   <properties>
