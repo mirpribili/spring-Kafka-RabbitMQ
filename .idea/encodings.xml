@@ -23,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/messaging-modules/kafka/stream-wiki-kafka/kafka-producer-wikimedia/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/messaging-modules/kafka/stream-wiki-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/messaging-modules/kafka/stream-wiki-kafka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messaging-modules/postgres-notify/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messaging-modules/postgres-notify/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/messaging-modules/rabbitmq/springboot-rabbitmq-microservices/rabbit-email-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/messaging-modules/rabbitmq/springboot-rabbitmq-microservices/rabbit-order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/messaging-modules/rabbitmq/springboot-rabbitmq-microservices/rabbit-stock-service/src/main/java" charset="UTF-8" />

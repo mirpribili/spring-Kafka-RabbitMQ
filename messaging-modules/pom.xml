@@ -22,6 +22,7 @@
         <module>kafka/stream-wiki-kafka</module>
         <module>rabbitmq</module>
         <module>rabbitmq/springboot-rabbitmq-tutorial</module>
+        <module>postgres-notify</module>
     </modules>
 
     <dependencies>
